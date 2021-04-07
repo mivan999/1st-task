@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    left: 240px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    z-index: 50;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        left: 104px;
+        padding: 26px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .header {
+        left: 12px;
+        padding-right: 21px;
+        padding-bottom: 27px;
+        padding-left: 20px;
+    }
+}

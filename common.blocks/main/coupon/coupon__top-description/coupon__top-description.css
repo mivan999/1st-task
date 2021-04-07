@@ -1,0 +1,23 @@
+.coupon__top-description {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.5;
+}
+@media screen and (max-width: 768px) {
+    .coupon__top-description {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .coupon__top-description {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

@@ -1,0 +1,3 @@
+.coupon:hover {
+    background-image: url("./src/images/hover-active.svg");
+}

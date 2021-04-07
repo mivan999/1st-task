@@ -1,0 +1,6 @@
+
+.side-bar-container {
+    z-index: 100;
+    display: flex;
+    position: fixed;
+}

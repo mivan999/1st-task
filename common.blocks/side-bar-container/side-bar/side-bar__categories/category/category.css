@@ -1,0 +1,32 @@
+.category {
+    padding-top: 19px;
+    padding-bottom: 23px;
+    color: #333333;
+    stroke: black;
+}
+.category > div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 40px;
+}
+.category > img {
+    height: 24px;
+    width: 24px;
+}
+@media screen and (max-width: 768px) {
+    .category {
+        padding-top: 22px;
+        padding-bottom: 14px;
+    }
+}
+@media screen and (max-width: 320px) {
+
+    .category svg {
+        display: none;
+    }
+
+    .category > div {
+        padding-left: 0px;
+    }
+}

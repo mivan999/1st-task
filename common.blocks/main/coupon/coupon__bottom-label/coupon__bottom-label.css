@@ -1,0 +1,22 @@
+.coupon__bottom-label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.5;
+}
+@media screen and (max-width: 320px) {
+    .coupon__bottom-label {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

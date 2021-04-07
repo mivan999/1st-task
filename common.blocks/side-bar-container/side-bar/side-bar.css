@@ -1,0 +1,18 @@
+.side-bar {
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    width: 240px;
+    height: 100vh;
+    background-color: #f3f4f9;
+}
+@media screen and (max-width: 768px) {
+    .side-bar {
+        width: 104px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .side-bar {
+        width: 12px;
+    }
+}

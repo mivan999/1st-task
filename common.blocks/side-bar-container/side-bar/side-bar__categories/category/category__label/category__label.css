@@ -1,0 +1,17 @@
+.category__label {
+    margin-left: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    .category__label {
+        display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+    .category__label {
+        margin-left: 0px;
+        padding-left: 19px;
+    }
+}

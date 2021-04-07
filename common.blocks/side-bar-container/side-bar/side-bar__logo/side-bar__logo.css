@@ -1,0 +1,20 @@
+
+.side-bar__logo {
+    margin-left: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+@media screen and (max-width: 768px) {
+
+    .side-bar__logo {
+        display: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

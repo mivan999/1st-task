@@ -1,0 +1,11 @@
+.category:hover > div {
+    color: #34abe0;
+    stroke: #34abe0;
+    padding-left: 37px;
+    border-left: 3px solid #34abe0;
+}
+@media screen and (max-width: 320px) {
+    .category:hover > div {
+        padding-left: 0px;
+    }
+}

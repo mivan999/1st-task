@@ -1,0 +1,27 @@
+.header__label {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+    opacity: 0.85;
+    margin-bottom: 31px;
+    margin-top: 0px;
+}
+@media screen and (max-width: 768px) {
+    .header__label {
+        text-align: right;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 320px) {
+
+    .header__label {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+      line-height: 32px;
+    }
+}

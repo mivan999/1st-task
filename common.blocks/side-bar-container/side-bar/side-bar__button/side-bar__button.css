@@ -1,0 +1,31 @@
+.side-bar__button {
+    /* background-image: url("./src/images/Union.svg"); */
+    height: 106px;
+    width: 48px;
+}
+.side-bar__button-icon {
+    display: none;
+}
+.side-bar__button-checkbox {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .side-bar__button {
+        background-image: url("./src/images/Union.svg");
+    }
+    .side-bar__button-icon {
+        margin-top: 43px;
+        display: inline;
+        content: url("./src/images/burger_menu.svg");
+    }
+     #sideBarToggle:checked ~ .side-bar__button-icon {
+         content: url("./src/images/menu_exit.svg");
+        }
+    .side-bar__button-checkbox {
+        display: inline;
+        margin-top: 46px;
+        position: absolute;
+        transform: scale(3);
+        opacity: 0;
+    }
+}

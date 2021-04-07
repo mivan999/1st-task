@@ -1,0 +1,23 @@
+.coupon__image {
+    float: right;
+}
+@media screen and (max-width: 768px) {
+    .coupon__image {
+        height: 144px;
+    }
+
+    .coupon__image img {
+        position: absolute;
+        right: 1px;
+        width: 110px;
+        bottom: 4px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .coupon__image img {
+        position: absolute;
+        right: 1px;
+        width: 89px;
+        bottom: 4px;
+    }
+}
